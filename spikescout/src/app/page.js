@@ -72,12 +72,14 @@ export default function Home() {
             <button id={styles.login_button} type="button" onClick={() => login(email, password)}>
             Login
             </button>
-
             <button id={styles.login_button} type="button" onClick={register}>
             Register
             </button>
           </div>
         </div>
+          <div id={styles.block_right}>
+            <p>hi</p>
+          </div>
       </div>
     </main>
   )
